@@ -32,7 +32,7 @@
             {
               "packager": "cytron", 
               "version": "1.0.0", 
-              "name": "nuvodude"
+              "name": "nulinkburn"
             }
           ], 
           "name": "Cytron ARM Boards"
@@ -105,7 +105,7 @@
         }, 
         {
           "version": "1.0.0", 
-          "name": "nuvodude", 
+          "name": "nulinkburn", 
           "systems": [
             {
               "url": "https://raw.githubusercontent.com/CytronTechnologies/Cytron-ARM-Arduino-URL/master/nulinkburn/windows/nulinkburn.tar.bz2", 
@@ -139,7 +139,7 @@
         }, 
         {
           "version": "1.0.1", 
-          "name": "nuvodude", 
+          "name": "nulinkburn", 
           "systems": [
             {
               "url": "https://github.com/bengchet/nuvodude/releases/download/1.0.1/nuvodude-1.0.1-win32.zip", 

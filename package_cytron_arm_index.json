@@ -14,14 +14,10 @@
           }, 
           "url": "https://raw.githubusercontent.com/CytronTechnologies/Cytron-ARM-Arduino-URL/master/cytron-arm/cytron-arm.tar.bz2", 
           "checksum": "SHA-256:B21DFE2EDBCD87E0C9CCCA5D0326F273834D3FDD724C25E1FDB01F300166CE02", 
+          "name": "Cytron ARM Boards", 
           "version": "1.0.0", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm.tar.bz2", 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ], 
           "size": "2715643", 
           "toolsDependencies": [
             {
@@ -35,13 +31,17 @@
               "name": "nulinkburn"
             }
           ], 
-          "name": "Cytron ARM Boards"
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ]
         }, 
         {
           "category": "Cytron Technologies", 
           "name": "Cytron ARM Boards", 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.1/cytron-arm-1.0.1.zip", 
-          "checksum": "SHA-256:2902675d39a22bfaadb21a81660612e35bf2d10349829ac783dc2c37edc34ab4", 
+          "checksum": "SHA-256:ebd0904e312da63dd128c88876c56745791153660f9e9531fec0923ea59ab243", 
           "help": {
             "online": "http://forum.cytron.com.my/"
           }, 
@@ -62,10 +62,10 @@
             {
               "packager": "cytron", 
               "version": "1.0.1", 
-              "name": "nuvodude"
+              "name": "nulinkburn"
             }
           ], 
-          "size": "4215797"
+          "size": "4215796"
         }
       ], 
       "tools": [

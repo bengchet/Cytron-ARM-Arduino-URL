@@ -14,10 +14,14 @@
           }, 
           "url": "https://raw.githubusercontent.com/CytronTechnologies/Cytron-ARM-Arduino-URL/master/cytron-arm/cytron-arm.tar.bz2", 
           "checksum": "SHA-256:B21DFE2EDBCD87E0C9CCCA5D0326F273834D3FDD724C25E1FDB01F300166CE02", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.0", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm.tar.bz2", 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ], 
           "size": "2715643", 
           "toolsDependencies": [
             {
@@ -31,11 +35,7 @@
               "name": "nulinkburn"
             }
           ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
+          "name": "Cytron ARM Boards"
         }, 
         {
           "category": "Cytron Technologies", 
@@ -44,39 +44,9 @@
           }, 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.1/cytron-arm-1.0.1.zip", 
           "checksum": "SHA-256:ebd0904e312da63dd128c88876c56745791153660f9e9531fec0923ea59ab243", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.1", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm-1.0.1.zip", 
-          "size": "4215796", 
-          "toolsDependencies": [
-            {
-              "packager": "cytron", 
-              "version": "4.8.3-2014q1", 
-              "name": "arm-none-eabi-gcc"
-            }, 
-            {
-              "packager": "cytron", 
-              "version": "1.0.1", 
-              "name": "nulinkburn"
-            }
-          ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
-        }, 
-        {
-          "category": "Cytron Technologies", 
-          "help": {
-            "online": "http://forum.cytron.com.my/"
-          }, 
-          "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.2/cytron-arm-1.0.2.zip", 
-          "checksum": "SHA-256:a3ae1e6ca7b4e7dac1c0c2e8144e8a2c6b043ab46d64b24caf567aec59f25c83", 
-          "version": "1.0.2", 
-          "architecture": "arm", 
-          "archiveFileName": "cytron-arm-1.0.2.zip", 
           "boards": [
             {
               "name": "CT ARM"
@@ -99,9 +69,39 @@
         }, 
         {
           "category": "Cytron Technologies", 
+          "help": {
+            "online": "http://forum.cytron.com.my/"
+          }, 
+          "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.2/cytron-arm-1.0.2.zip", 
+          "checksum": "SHA-256:a3ae1e6ca7b4e7dac1c0c2e8144e8a2c6b043ab46d64b24caf567aec59f25c83", 
+          "name": "Cytron ARM Boards", 
+          "version": "1.0.2", 
+          "architecture": "arm", 
+          "archiveFileName": "cytron-arm-1.0.2.zip", 
+          "size": "4215796", 
+          "toolsDependencies": [
+            {
+              "packager": "cytron", 
+              "version": "4.8.3-2014q1", 
+              "name": "arm-none-eabi-gcc"
+            }, 
+            {
+              "packager": "cytron", 
+              "version": "1.0.1", 
+              "name": "nulinkburn"
+            }
+          ], 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ]
+        }, 
+        {
+          "category": "Cytron Technologies", 
           "name": "Cytron ARM Boards", 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.3/cytron-arm-1.0.3.zip", 
-          "checksum": "SHA-256:9c9242f62b0d0e9d3d115f1ed6de7952c421ae923af33693da7dc5435f4575bb", 
+          "checksum": "SHA-256:2293a4e59712c22100b3961342951634cd4ac428c154c3575a6e2b8563cfb975", 
           "help": {
             "online": "https://cytrontechnologies.github.io/CT-ARM/"
           }, 

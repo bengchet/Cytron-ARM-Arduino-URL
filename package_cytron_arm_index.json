@@ -5,7 +5,7 @@
       "help": {
         "online": "http://forum.cytron.com.my/"
       }, 
-      "websiteURL": "http://www.cytron.com.my", 
+      "websiteURL": "https://cytrontechnologies.github.io/CT-ARM/", 
       "platforms": [
         {
           "category": "Cytron Technologies", 
@@ -14,10 +14,14 @@
           }, 
           "url": "https://raw.githubusercontent.com/CytronTechnologies/Cytron-ARM-Arduino-URL/master/cytron-arm/cytron-arm.tar.bz2", 
           "checksum": "SHA-256:B21DFE2EDBCD87E0C9CCCA5D0326F273834D3FDD724C25E1FDB01F300166CE02", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.0", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm.tar.bz2", 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ], 
           "size": "2715643", 
           "toolsDependencies": [
             {
@@ -31,11 +35,7 @@
               "name": "nulinkburn"
             }
           ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
+          "name": "Cytron ARM Boards"
         }, 
         {
           "category": "Cytron Technologies", 
@@ -44,39 +44,9 @@
           }, 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.1/cytron-arm-1.0.1.zip", 
           "checksum": "SHA-256:ebd0904e312da63dd128c88876c56745791153660f9e9531fec0923ea59ab243", 
-          "name": "Cytron ARM Boards", 
           "version": "1.0.1", 
           "architecture": "arm", 
           "archiveFileName": "cytron-arm-1.0.1.zip", 
-          "size": "4215796", 
-          "toolsDependencies": [
-            {
-              "packager": "cytron", 
-              "version": "4.8.3-2014q1", 
-              "name": "arm-none-eabi-gcc"
-            }, 
-            {
-              "packager": "cytron", 
-              "version": "1.0.1", 
-              "name": "nulinkburn"
-            }
-          ], 
-          "boards": [
-            {
-              "name": "CT ARM"
-            }
-          ]
-        }, 
-        {
-          "category": "Cytron Technologies", 
-          "help": {
-            "online": "http://forum.cytron.com.my/"
-          }, 
-          "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.2/cytron-arm-1.0.2.zip", 
-          "checksum": "SHA-256:a3ae1e6ca7b4e7dac1c0c2e8144e8a2c6b043ab46d64b24caf567aec59f25c83", 
-          "version": "1.0.2", 
-          "architecture": "arm", 
-          "archiveFileName": "cytron-arm-1.0.2.zip", 
           "boards": [
             {
               "name": "CT ARM"
@@ -99,9 +69,39 @@
         }, 
         {
           "category": "Cytron Technologies", 
+          "help": {
+            "online": "http://forum.cytron.com.my/"
+          }, 
+          "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.2/cytron-arm-1.0.2.zip", 
+          "checksum": "SHA-256:a3ae1e6ca7b4e7dac1c0c2e8144e8a2c6b043ab46d64b24caf567aec59f25c83", 
+          "name": "Cytron ARM Boards", 
+          "version": "1.0.2", 
+          "architecture": "arm", 
+          "archiveFileName": "cytron-arm-1.0.2.zip", 
+          "size": "4215796", 
+          "toolsDependencies": [
+            {
+              "packager": "cytron", 
+              "version": "4.8.3-2014q1", 
+              "name": "arm-none-eabi-gcc"
+            }, 
+            {
+              "packager": "cytron", 
+              "version": "1.0.1", 
+              "name": "nulinkburn"
+            }
+          ], 
+          "boards": [
+            {
+              "name": "CT ARM"
+            }
+          ]
+        }, 
+        {
+          "category": "Cytron Technologies", 
           "name": "Cytron ARM Boards", 
           "url": "https://github.com/bengchet/CT-ARM/releases/download/1.0.3/cytron-arm-1.0.3.zip", 
-          "checksum": "SHA-256:7819ba7420de30024ddc85dec594094740c784150ae007b14e54714d93516083", 
+          "checksum": "SHA-256:61a75838eee218b0ccf1f974efef3d4fc4cb722c9e82247ae1e712252052092e", 
           "help": {
             "online": "https://cytrontechnologies.github.io/CT-ARM/"
           }, 
@@ -239,6 +239,7 @@
             {
               "url": "https://github.com/bengchet/nuvodude/releases/download/1.0.1/nuvodude-1.0.1-linux-armhf.tar.gz", 
               "checksum": "SHA-256:00cef8c1509fa39fe36571ab80dce9a2135d8203ec1b27336987de1edd62f214", 
+              "host": "arm-linux-gnueabihf", 
               "archiveFileName": "nuvodude-1.0.1-linux-armhf.tar.gz", 
               "size": "6908"
             }
